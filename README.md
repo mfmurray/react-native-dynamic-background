@@ -9,27 +9,15 @@ npm i react-native-dynamic-background
 # API
 #### Example ####
 ```js
-// in style.js
 
-import { StyleSheet } from 'react-native';
-import { ifIphoneX } from 'react-native-iphone-x-helper'
+import { DynamicBackground } from 'react-native-dynamic-background';
 
-export default StyleSheet.create({
-    header:{
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        right: 0,
-        padding:10,
-        height: 60,
-        backgroundColor: 'transparent',
-        ...ifIphoneX({
-            paddingTop: 50
-        }, {
-            paddingTop: 20
-        })
-    },
-});
+<View>
+  <DynamicBackground
+    speed={800}
+    colors={['#833ab4','#fd1d1d','#fcb045']}
+  />
+</View>
 ```
 
 ![](gif.gif)
