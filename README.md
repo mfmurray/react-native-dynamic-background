@@ -7,5 +7,6 @@ Create a dynamic backgroud with an infinite amount of colors
 npm i react-native-dynamic-background
 
 # API
+<mark>Marked text</mark>
 
 ![](gif.gif)
