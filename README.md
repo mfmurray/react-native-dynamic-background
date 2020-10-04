@@ -8,5 +8,6 @@ npm i react-native-dynamic-background
 
 # API
 <mark>Marked text</mark>
+! text in orange
 
 ![](gif.gif)
